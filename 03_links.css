@@ -1,0 +1,38 @@
+body{
+    font-family: 'Segoe UI';
+    line-height: 1.6;
+    margin: 20px;
+    background: linear-gradient(45deg, #999, rgb(204, 0, 82),#fff); 
+    /* background: radial-gradient(circle at top left, #84ffe4, rgb(255, 82, 177)); */
+    /* background: conic-gradient(from 90deg, #ffec7e, #7e17ed); */
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase; /* Deixa tudo maiúscula */
+    letter-spacing: 5px; /* Espaça as letras */
+}
+
+/* LINKS - Estados e pseudo-classes */
+
+a {
+    text-decoration: none; /* Remove o siblinhado */
+    transition: all 0.3s ease; /*Animação suave*/
+    padding: 5px; 
+}
+
+/* Estado do link não visitado */
+a:Link {
+    color: orange;
+}
+
+/* Estado do link Visitado */
+a:visited {
+    color: green;
+}
+
+/* Quando o mouse estiver em cima ("Hover") */
+a:hover {
+    /* color: coral; */
+    background-color: coral;
+    border-radius: 1000px;
+}
