@@ -22,5 +22,5 @@ img:hover {
 .img-link {
     width: 150px;
     height: 50px;
-    object-fit: contain; /Mantém a proporção da imagem/
+    object-fit: contain; /* Mantém a proporção da imagem */
 }
